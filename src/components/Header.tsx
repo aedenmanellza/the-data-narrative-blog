@@ -16,7 +16,7 @@ const Header = () => {
         </Link>
         
         <a
-          href="https://www.linkedin.com/in/yourprofile"
+          href="https://www.linkedin.com/in/aeden-manell/"
           target="_blank"
           rel="noopener noreferrer"
           className="p-3 rounded-[15px] bg-secondary hover:bg-accent transition-colors"
