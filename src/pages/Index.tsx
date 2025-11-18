@@ -21,7 +21,7 @@ const Index = () => {
         {/* Hero Section */}
         <section className="max-w-5xl mx-auto px-6 py-20 text-center">
           <h1 className="text-5xl md:text-7xl font-black mb-6 leading-tight animate-fade-in">
-            A Data Analyst's Journey | Stories from the trenches of data
+            A Data Analyst's Journey
           </h1>
           <p className="text-2xl md:text-3xl text-muted-foreground mb-8 font-semibold">
             Welcome to The Data Narrative.
