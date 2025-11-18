@@ -4,36 +4,10 @@
 @tailwind components;
 @tailwind utilities;
 
-/* Monochrome Design System - Black, White, and Grays Only */
+/* Monochrome Design System - Dark Mode Only */
 
 @layer base {
   :root {
-    --background: 0 0% 100%;
-    --foreground: 0 0% 4%;
-
-    --card: 0 0% 100%;
-    --card-foreground: 0 0% 4%;
-
-    --primary: 0 0% 4%;
-    --primary-foreground: 0 0% 98%;
-
-    --secondary: 0 0% 96%;
-    --secondary-foreground: 0 0% 4%;
-
-    --muted: 0 0% 96%;
-    --muted-foreground: 0 0% 46%;
-
-    --accent: 0 0% 90%;
-    --accent-foreground: 0 0% 4%;
-
-    --border: 0 0% 90%;
-    --input: 0 0% 90%;
-    --ring: 0 0% 4%;
-
-    --radius: 15px;
-  }
-
-  .dark {
     --background: 0 0% 4%;
     --foreground: 0 0% 98%;
 
@@ -55,6 +29,8 @@
     --border: 0 0% 20%;
     --input: 0 0% 20%;
     --ring: 0 0% 98%;
+
+    --radius: 15px;
   }
 }
 
