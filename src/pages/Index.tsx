@@ -21,15 +21,15 @@ const Index = () => {
         {/* Hero Section */}
         <section className="max-w-5xl mx-auto px-6 py-20 text-center">
           <h1 className="text-5xl md:text-7xl font-black mb-6 leading-tight animate-fade-in">
-            Aeden Manell
+            A Data Analyst's Journey | Stories from the trenches of data
           </h1>
           <p className="text-2xl md:text-3xl text-muted-foreground mb-8 font-semibold">
-            Data Analyst | Stories from the trenches of data
+            Welcome to The Data Narrative.
           </p>
           <p className="text-lg md:text-xl text-muted-foreground max-w-3xl mx-auto leading-relaxed">
             I turn complex data into clear narratives. This is where I document the journey – 
             the SQL queries that changed everything, the Python scripts that saved hundreds of hours, 
-            and the hard-won lessons from real projects. Welcome to The Data Narrative.
+            and the hard-won lessons from real projects.
           </p>
         </section>
 
