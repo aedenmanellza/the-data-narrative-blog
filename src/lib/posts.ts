@@ -15,41 +15,15 @@ export interface Post {
 // In a real implementation with a build step, you'd read from the filesystem
 const mockPosts = [
   {
-    slug: 'why-i-started-this-blog',
+    slug: '',
     frontmatter: {
-      title: 'Why I Started This Blog',
+      title: '',
       date: '2025-01-15',
-      excerpt: 'The real reason I decided to document my journey through data – the wins, the failures, and everything in between.',
-      coverImage: '/images/first-post.jpg'
+      excerpt: '',
+      coverImage: ''
     },
     content: `
-# The Beginning
 
-After years of working with data in silence, I realized something crucial: **the stories we tell with data matter just as much as the data itself**.
-
-## Why Now?
-
-I've been asked this question countless times. The truth is simple – I've learned that the best way to truly understand something is to try explaining it to others.
-
-### What You'll Find Here
-
-- Real data analysis case studies
-- SQL tricks I wish I knew earlier
-- Python automation that saved my career
-- Career lessons from the trenches
-- The art of data storytelling
-
-## The Promise
-
-I'm committed to sharing:
-
-1. **Honest failures** – Not just the wins
-2. **Practical code** – Things you can actually use
-3. **Real insights** – From actual projects
-
-This isn't about perfection. It's about progress, learning, and sharing that journey with you.
-
-Welcome to The Data Narrative.
     `
   },
   {
