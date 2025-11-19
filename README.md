@@ -38,7 +38,7 @@ If you’ve ever:
 
 ### Let’s stay in touch
 
-- Find me on [LinkedIn](https://linkedin.com/in/aedenmanell)  
+- Find me on [LinkedIn](https://www.linkedin.com/in/aeden-manell/)
 
 Thanks for stopping by.  
 Now go write that query you’ve been putting off.
