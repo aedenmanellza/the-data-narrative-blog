@@ -2,7 +2,7 @@
 
 ## Welcome to The Data Narrative
 
-Hi, I’m **Aeden Manell** – a data analyst who believes the best insights aren’t found in textbooks, they’re earned in the late-night debugging sessions, the stakeholder meetings that go sideways, and the moments when a single well-written query finally makes the data sing.
+Hi, I’m **Aeden Manell** – a data analyst who believes the best insights aren’t found in textbooks, they’re earned in the late-night debugging sessions, and the moments when a single well-written query finally makes the data sing.
 
 This blog is my public notebook. Here I document:
 
