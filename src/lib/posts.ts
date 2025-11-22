@@ -13,19 +13,7 @@ export interface Post {
 
 // This is a mock implementation since we can't read the filesystem in the browser
 // In a real implementation with a build step, you'd read from the filesystem
-const mockPosts = [
-  {
-    slug: '',
-    frontmatter: {
-      title: '',
-      date: '2025-01-15',
-      excerpt: '',
-      coverImage: ''
-    },
-    content: `
-
-    `
-  },
+const mockPosts = [***
   {
     slug: 'sql-optimization-lessons',
     frontmatter: {
@@ -81,76 +69,19 @@ Learn to read them. They'll tell you exactly where your query is struggling.
 That 45-minute query? Now runs in **12 seconds**. The stakeholders are happy. The database is happy. And I learned more about optimization in one week than in my previous two years combined.
 
 **The lesson:** Performance problems are almost always opportunities in disguise.
-    `
+    `***
   },
   {
-    slug: 'python-automation-workflow',
+    slug: '',
     frontmatter: {
-      title: 'The Python Script That Saved Me 20 Hours Per Week',
-      date: '2025-01-22',
-      excerpt: 'A simple automation script that transformed my workflow and taught me the true power of Python for data analysts.',
-      coverImage: '/images/python-automation.jpg'
+      title: '',
+      date: ' ',
+      excerpt: ' ',
+      coverImage: ' '
     },
     content: `
-# The Manual Hell
-
-Every Monday morning, I would:
-
-1. Download 5 CSV files from different sources
-2. Clean each one individually
-3. Merge them together
-4. Generate summary statistics
-5. Create charts
-6. Email them to stakeholders
-
-**Time required:** 4 hours, every single week.
-
-## The Automation Solution
-
-Here's the script that changed everything:
-
-\`\`\`python
-import pandas as pd
-import smtplib
-from email.mime.multipart import MIMEMultipart
-from email.mime.text import MIMEText
-import matplotlib.pyplot as plt
-
-def automate_weekly_report():
-    # Download files (using API)
-    files = download_all_sources()
     
-    # Clean and merge
-    df = pd.concat([clean_csv(f) for f in files])
-    
-    # Generate insights
-    summary = generate_summary(df)
-    
-    # Create visualizations
-    create_charts(df)
-    
-    # Email stakeholders
-    send_report(summary)
-
-# Run every Monday at 8 AM
-schedule.every().monday.at("08:00").do(automate_weekly_report)
-\`\`\`
-
-## The Impact
-
-- **Time saved:** 20 hours per month
-- **Errors reduced:** From ~3 per report to 0
-- **Stakeholder satisfaction:** Through the roof
-
-## Key Takeaways
-
-1. If you do it more than twice, automate it
-2. Python's pandas library is a superpower
-3. Small scripts compound into massive time savings
-4. Your future self will thank you
-
-**The lesson:** Don't work harder. Work smarter. Automate ruthlessly.
-    `
+ `
   }
 ];
 
