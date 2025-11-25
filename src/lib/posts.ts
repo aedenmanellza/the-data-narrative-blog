@@ -38,10 +38,9 @@ const mockPosts = [/*
      title: 'How to Become a Data Analyst in 2025: Your 8-Step T-Shaped Roadmap',
      date: '2025-01-18',
      excerpt: 'Overwhelmed by all the skills needed to become a Data Analyst? Focus on building a strong, T-shaped foundation with this 8-step roadmap, prioritizing Excel, SQL, and a BI tool, and leveraging AI to accelerate your learning and career.',
-     coverImage: 'https://www.lummi.ai/api/render/image/7bd9fb97-afda-4bbf-a5b4-12c283ea706c?token=eyJhbGciOiJIUzI1NiJ9.eyJpZHMiOlsiN2JkOWZiOTctYWZkYS00YmJmLWE1YjQtMTJjMjgzZWE3MDZjIl0sInJlc29sdXRpb24iOiJtZWRpdW0iLCJyZW5kZXJTcGVjcyI6eyJlZmZlY3RzIjp7InJlZnJhbWUiOnt9fX0sInNob3VsZEF1dG9Eb3dubG9hZCI6ZmFsc2UsImp0aSI6Ii1ocmF4TTBXbWtJejdVaUJWVzhDWSIsImlhdCI6MTc2NDEwOTUxNiwiZXhwIjoxNzY0MTA5NTc2fQ.XWPDs6gHYvjh7dra2EFZPZl3Hu3y3T-x2pannfEH4Z8'
+     coverImage: ' '
    },
 content: `
-# 🚀 How to Become a Data Analyst in 2025: Your 8-Step T-Shaped Roadmap
 
 ### Focus on Depth: Why T-Shaped Learning Trumps Breadth
 
