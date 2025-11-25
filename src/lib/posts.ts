@@ -11,8 +11,6 @@ export interface Post {
   content?: string;
 }
 
-// This is a mock implementation since we can't read the filesystem in the browser
-// In a real implementation with a build step, you'd read from the filesystem
 const mockPosts = [/*
   {
     slug: 'sql-optimization-lessons',
@@ -38,7 +36,7 @@ const mockPosts = [/*
      title: 'How to Become a Data Analyst in 2025: Your 8-Step T-Shaped Roadmap',
      date: '2025-01-18',
      excerpt: 'Overwhelmed by all the skills needed to become a Data Analyst? Focus on building a strong, T-shaped foundation with this 8-step roadmap, prioritizing Excel, SQL, and a BI tool, and leveraging AI to accelerate your learning and career.',
-     coverImage: ' '
+     coverImage: '/images/img1.png'
    },
 content: `
 
