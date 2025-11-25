@@ -13,7 +13,7 @@ export interface Post {
 
 // This is a mock implementation since we can't read the filesystem in the browser
 // In a real implementation with a build step, you'd read from the filesystem
-const mockPosts = [
+const mockPosts = [/*
   {
     slug: 'sql-optimization-lessons',
     frontmatter: {
@@ -43,7 +43,7 @@ const mockPosts = [
     content: `
     
  `
-  }
+  }*/
 ];
 
 export async function getAllPosts(): Promise<Post[]> {
