@@ -11,7 +11,7 @@ export interface Post {
   content?: string;
 }
 
-const mockPosts = [
+const mockPosts = [/*
   {
     slug: 'sql-optimization-lessons',
     frontmatter: {
@@ -29,7 +29,7 @@ const mockPosts = [
 
     `
   },
-  
+  */
   {
    slug: 'data-analyst-roadmap-2025',
    frontmatter: {
